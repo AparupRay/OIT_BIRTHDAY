@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f0"
+    tools:context="com.example.aparu.birthday_schedule.Activities.Message_Activity">
+
+    <Button
+        android:id="@+id/send_wishes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:background="@drawable/buttonedit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="26dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="#ffffff"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/template"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY" />
+
+
+
+</RelativeLayout>
